@@ -24,7 +24,7 @@ Add to `package.json`:
 ```
 
 ```js
-const {Wall, Direction} = require('labyrinth');
+const {Wall, Direction} = require('labyrinth3d');
 
 var wall = new Wall(20, 20, 20);
 wall.carve();
