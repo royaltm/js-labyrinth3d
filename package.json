@@ -1,0 +1,53 @@
+{
+  "name": "labyrinth3d",
+  "version": "0.0.1",
+  "description": "The 3D labyrinth generator",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "private": true,
+  "bin": {
+    "labyrinth": "./bin/labyrinth.js"
+  },
+  "directories": {
+    "bin": "bin",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "labyrinth": "node bin/labyrinth.js",
+    "test": "tap test/test.*.js",
+    "bench": "node bench/bench.labyrinth.js",
+    "rollup": "rollup -c",
+    "dev": "rollup -c --watch"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royaltm/js-labyrinth3d.git"
+  },
+  "keywords": [
+    "labyrinth"
+  ],
+  "author": "Rafał Michalski <royal@yeondir.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/royaltm/js-labyrinth3d/issues"
+  },
+  "homepage": "https://github.com/royaltm/js-labyrinth3d#readme",
+  "devDependencies": {
+    "ben": "0.0.0",
+    "rollup": "^0.56.1",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-watch": "^4.3.1",
+    "tap": "^10.7.3"
+  }
+}
