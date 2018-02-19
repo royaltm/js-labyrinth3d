@@ -5,9 +5,6 @@
   "main": "lib/index.js",
   "module": "src/index.js",
   "private": true,
-  "bin": {
-    "labyrinth": "./bin/labyrinth.js"
-  },
   "directories": {
     "bin": "bin",
     "lib": "lib",
